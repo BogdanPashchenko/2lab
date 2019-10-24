@@ -1,0 +1,30 @@
+main.pbi: \
+  D:\POIP\2\ raba\AbsstractHardware\Registers\STM32F411\FieldValues\rccfieldvalues.hpp \
+  D:\POIP\2\ raba\AbsstractHardware\Registers\STM32F411\rccregisters.hpp \
+  D:\POIP\2\ raba\AbsstractHardware\Registers\STM32F411\FieldValues\gpiocfieldvalues.hpp \
+  D:\POIP\2\ raba\AbsstractHardware\Registers\STM32F411\gpiocregisters.hpp \
+  D:\POIP\2\ raba\AbsstractHardware\Registers\register.hpp \
+  D:\Kolody\iar\arm\inc\c\ycheck.h D:\Kolody\iar\arm\inc\c\stdint.h \
+  D:\Kolody\iar\arm\inc\cpp\cstdint \
+  D:\POIP\2\ raba\AbsstractHardware\Registers\registertype.hpp \
+  D:\POIP\2\ raba\AbsstractHardware\Registers\registerbase.hpp \
+  D:\Kolody\iar\arm\inc\c\assert.h D:\Kolody\iar\arm\inc\cpp\cassert \
+  D:\POIP\2\ raba\AbsstractHardware\Registers\registerfield.hpp \
+  D:\POIP\2\ raba\Common\susudefs.hpp \
+  D:\POIP\2\ raba\AbsstractHardware\Registers\accessmode.hpp \
+  D:\Kolody\iar\arm\inc\cpp\xtr1common \
+  D:\Kolody\iar\arm\inc\cpp\initializer_list \
+  D:\Kolody\iar\arm\inc\c\DLib_Product_stdlib.h \
+  D:\Kolody\iar\arm\inc\c\stdlib.h D:\Kolody\iar\arm\inc\cpp\cstdlib \
+  D:\Kolody\iar\arm\inc\cpp\xstddef \
+  D:\Kolody\iar\arm\inc\cpp\type_traits \
+  D:\POIP\2\ raba\AbsstractHardware\Registers\fieldvaluebase.hpp \
+  D:\Kolody\iar\arm\inc\c\ysizet.h \
+  D:\Kolody\iar\arm\inc\c\DLib_Product.h \
+  D:\Kolody\iar\arm\inc\c\DLib_Defaults.h \
+  D:\Kolody\iar\arm\inc\c\yvals.h D:\Kolody\iar\arm\inc\c\stddef.h \
+  D:\Kolody\iar\arm\inc\cpp\cstddef \
+  D:\POIP\2\ raba\AbsstractHardware\Registers\fieldvalue.hpp \
+  D:\POIP\2\ raba\AbsstractHardware\Registers\STM32F411\FieldValues\gpioafieldvalues.hpp \
+  D:\POIP\2\ raba\AbsstractHardware\Registers\STM32F411\gpioaregisters.hpp \
+  D:\POIP\2\ raba\main.cpp

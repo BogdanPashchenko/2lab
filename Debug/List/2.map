@@ -1,0 +1,255 @@
+###############################################################################
+#
+# IAR ELF Linker V8.40.1.212/W32 for ARM                  24/Oct/2019  23:33:55
+# Copyright 2007-2019 IAR Systems AB.
+#
+#    Output file  =  D:\POIP\2 raba\Debug\Exe\2.out
+#    Map file     =  D:\POIP\2 raba\Debug\List\2.map
+#    Command line =
+#        -f C:\Users\User\AppData\Local\Temp\EW2D18.tmp ("D:\POIP\2
+#        raba\Debug\Obj\main.o" "D:\POIP\2 raba\Debug\Obj\startup.o"
+#        --no_out_extension -o "D:\POIP\2 raba\Debug\Exe\2.out" --redirect
+#        _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb --map
+#        "D:\POIP\2 raba\Debug\List\2.map" --config "D:\POIP\2 raba\2_la.icf"
+#        --semihosting --entry __iar_program_start --vfe --enable_stack_usage
+#        --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** MESSAGES
+***
+
+Warning[Ls015]: [stack usage analysis] at least one function appears to be
+          uncalled. Example: "InterruptHandler::DummyHandler()". A complete
+          list of uncalled functions is in the map file.
+
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor        = *
+__CPP_Exceptions = Disabled
+__CPP_Language   = C++14
+__SystemLibrary  = DLib
+__dlib_version   = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because no calls to memory allocation
+functions were found in the application outside of system library
+functions, and there are calls to deallocation functions in the
+application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at address 0x800'0000 { ro section .intvec };
+"P1":  place in [from 0x800'0000 to 0x807'ffff] { ro };
+define block CSTACK with size = 32, alignment = 8 { };
+define block HEAP with size = 0, alignment = 8 { };
+"P2":  place in [from 0x2000'0000 to 0x2001'ffff] {
+          rw, block CSTACK, block HEAP };
+
+  Section          Kind         Address   Size  Object
+  -------          ----         -------   ----  ------
+"A0":                                     0xbc
+  .intvec          const     0x800'0000   0xbc  startup.o [1]
+                           - 0x800'00bc   0xbc
+
+"P1":                                    0x1e0
+  .text            ro code   0x800'00bc   0x88  main.o [1]
+  .text            ro code   0x800'0144   0x14  main.o [1]
+  .text            ro code   0x800'0158   0x14  main.o [1]
+  .text            ro code   0x800'016c   0x14  main.o [1]
+  .text            ro code   0x800'0180   0x14  main.o [1]
+  .text            ro code   0x800'0194   0x14  main.o [1]
+  .text            ro code   0x800'01a8   0x3a  zero_init3.o [4]
+  .text            ro code   0x800'01e2    0x2  startup.o [1]
+  .text            ro code   0x800'01e4   0x28  data_init.o [4]
+  .text            ro code   0x800'020c   0x22  fpinit_M.o [3]
+  .iar.init_table  const     0x800'0230   0x10  - Linker created -
+  .text            ro code   0x800'0240    0x2  startup.o [1]
+  .text            ro code   0x800'0244   0x1e  cmain.o [4]
+  .text            ro code   0x800'0262    0x4  low_level_init.o [2]
+  .text            ro code   0x800'0266    0x4  exit.o [2]
+  .rodata          const     0x800'026a    0x1  unwind_debug.o [5]
+  .text            ro code   0x800'026c    0xa  cexit.o [4]
+  .text            ro code   0x800'0278   0x14  exit.o [5]
+  .text            ro code   0x800'028c   0x10  startup.o [1]
+  .rodata          const     0x800'029c    0x0  zero_init3.o [4]
+                           - 0x800'029c  0x1e0
+
+"P2", part 1 of 2:                         0x4
+  .bss             zero     0x2000'0000    0x4  main.o [1]
+                          - 0x2000'0004    0x4
+
+"P2", part 2 of 2:                        0x20
+  CSTACK                    0x2000'0008   0x20  <Block>
+    CSTACK         uninit   0x2000'0008   0x20  <Block tail>
+                          - 0x2000'0028   0x20
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+   0x800'029c   0x807'ffff  0x7'fd64
+  0x2000'0004  0x2000'0007       0x4
+  0x2000'0028  0x2001'ffff  0x1'ffd8
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x4:
+          0x2000'0000   0x4
+
+
+*******************************************************************************
+*** STACK USAGE
+***
+
+  Call Graph Root Category  Max Use  Total Use
+  ------------------------  -------  ---------
+  Program entry                 24         24
+  Uncalled function              0          0
+
+
+Program entry
+  "__iar_program_start": 0x800'028d
+
+  Maximum call chain                               24  bytes
+
+    "__iar_program_start"                           8
+    "__cmain"                                       0
+    "__iar_data_init3"                              8
+    "__iar_zero_init3"                              8
+
+Uncalled function
+  "InterruptHandler::DummyHandler()": 0x800'01e3
+
+  Maximum call chain                                0  bytes
+
+    "InterruptHandler::DummyHandler()"              0
+
+Uncalled function
+  "InterruptHandler::Timer2Handler()": 0x800'0241
+
+  Maximum call chain                                0  bytes
+
+    "InterruptHandler::Timer2Handler()"             0
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module            ro code  ro data  rw data
+    ------            -------  -------  -------
+command line/config:
+    -------------------------------------------
+    Total:
+
+D:\POIP\2 raba\Debug\Obj: [1]
+    main.o                236                 4
+    startup.o              20      188
+    -------------------------------------------
+    Total:                256      188        4
+
+dl7M_tln.a: [2]
+    exit.o                  4
+    low_level_init.o        4
+    -------------------------------------------
+    Total:                  8
+
+m7M_tls.a: [3]
+    fpinit_M.o             34
+    -------------------------------------------
+    Total:                 34
+
+rt7M_tl.a: [4]
+    cexit.o                10
+    cmain.o                30
+    data_init.o            40
+    zero_init3.o           58
+    -------------------------------------------
+    Total:                138
+
+shb_l.a: [5]
+    exit.o                 20
+    unwind_debug.o                   1
+    -------------------------------------------
+    Total:                 20        1
+
+    Gaps                    5        2
+    Linker created                  16       32
+-----------------------------------------------
+    Grand Total:          461      207       36
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address  Size  Type      Object
+-----                       -------  ----  ----      ------
+.iar.init_table$$Base    0x800'0230         --   Gb  - Linker created -
+.iar.init_table$$Limit   0x800'0240         --   Gb  - Linker created -
+?main                    0x800'0245        Code  Gb  cmain.o [4]
+CSTACK$$Base            0x2000'0008         --   Gb  - Linker created -
+CSTACK$$Limit           0x2000'0028         --   Gb  - Linker created -
+InterruptHandler::DummyHandler()
+                         0x800'01e3   0x2  Code  Gb  startup.o [1]
+InterruptHandler::Timer2Handler()
+                         0x800'0241   0x2  Code  Gb  startup.o [1]
+Region$$Table$$Base      0x800'0230         --   Gb  - Linker created -
+Region$$Table$$Limit     0x800'0240         --   Gb  - Linker created -
+__cmain                  0x800'0245        Code  Gb  cmain.o [4]
+__exit                   0x800'0279  0x14  Code  Gb  exit.o [5]
+__iar_data_init3         0x800'01e5  0x28  Code  Gb  data_init.o [4]
+__iar_debug_exceptions   0x800'026a   0x1  Data  Gb  unwind_debug.o [5]
+__iar_init_vfp           0x800'020d        Code  Gb  fpinit_M.o [3]
+__iar_program_start      0x800'028d  0x10  Code  Gb  startup.o [1]
+__iar_zero_init3         0x800'01a9  0x3a  Code  Gb  zero_init3.o [4]
+__low_level_init         0x800'0263   0x4  Code  Gb  low_level_init.o [2]
+__vector_table           0x800'0000  0xbc  Data  Lc  startup.o [1]
+_call_main               0x800'0251        Code  Gb  cmain.o [4]
+_exit                    0x800'026d        Code  Gb  cexit.o [4]
+_main                    0x800'025f        Code  Gb  cmain.o [4]
+exit                     0x800'0267   0x4  Code  Gb  exit.o [2]
+i                       0x2000'0000   0x4  Data  Gb  main.o [1]
+main                     0x800'00bd  0x88  Code  Gb  main.o [1]
+void FieldValueBase<GPIOC_MODER_MODER_Values<GPIOC::MODER, (unsigned int)10, (unsigned int)2, ReadWriteMode, GPIOC::GPIOCMODERBase>, GPIOC::GPIOCMODERBase, (unsigned int)1>::Set<ReadWriteMode, void>()
+                         0x800'016d  0x14  Code  Gb  main.o [1]
+void FieldValueBase<GPIOC_MODER_MODER_Values<GPIOC::MODER, (unsigned int)16, (unsigned int)2, ReadWriteMode, GPIOC::GPIOCMODERBase>, GPIOC::GPIOCMODERBase, (unsigned int)1>::Set<ReadWriteMode, void>()
+                         0x800'0181  0x14  Code  Gb  main.o [1]
+void FieldValueBase<GPIOC_MODER_MODER_Values<GPIOC::MODER, (unsigned int)18, (unsigned int)2, ReadWriteMode, GPIOC::GPIOCMODERBase>, GPIOC::GPIOCMODERBase, (unsigned int)1>::Set<ReadWriteMode, void>()
+                         0x800'0195  0x14  Code  Gb  main.o [1]
+void FieldValueBase<RCC_AHBENR_GPIOAEN_Values<RCC::AHB1ENR, (unsigned int)0, (unsigned int)1, ReadWriteMode, RCC::RCCAHB1ENRBase>, RCC::RCCAHB1ENRBase, (unsigned int)1>::Set<ReadWriteMode, void>()
+                         0x800'0145  0x14  Code  Gb  main.o [1]
+void FieldValueBase<RCC_AHBENR_GPIOCEN_Values<RCC::AHB1ENR, (unsigned int)2, (unsigned int)1, ReadWriteMode, RCC::RCCAHB1ENRBase>, RCC::RCCAHB1ENRBase, (unsigned int)1>::Set<ReadWriteMode, void>()
+                         0x800'0159  0x14  Code  Gb  main.o [1]
+
+
+[1] = D:\POIP\2 raba\Debug\Obj
+[2] = dl7M_tln.a
+[3] = m7M_tls.a
+[4] = rt7M_tl.a
+[5] = shb_l.a
+
+  461 bytes of readonly  code memory
+  207 bytes of readonly  data memory
+   36 bytes of readwrite data memory
+
+Errors: none
+Warnings: 1
