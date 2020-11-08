@@ -1,1 +1,86 @@
-<mxfile host="app.diagrams.net" modified="2020-11-08T14:20:59.028Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36 OPR/71.0.3770.310" etag="a6Ez4LHuLJJ6vLmOC_By" version="13.9.2" type="github"><diagram id="Cp4MX1WB2PmzW3XeEfTH" name="Page-1">7Vpdk5s2FP01fkxGiE8/rj+2nU6byXTbadKXjmJkm0YgF8trO7++AiSQBNh4bRZvmxcbrq6ExD2cc3VhZE/jww8p2qx/oSEmIwjCw8iejSC0bMvjf5nlWFgC2y0MqzQKhVNleIq+YWEEwrqLQrzVHBmlhEUb3bigSYIXTLOhNKV73W1JiX7VDVrhmuFpgUjd+kcUsrVYBfQr+484Wq3llS1vXLTESDqLlWzXKKR7xWTPR/Y0pZQVR/Fhikl28+R9Kfo9trSWE0txwrp0+PB1+u3P33+aBR/H9C8CyH66TN45Ym7sKBeMQ75+cUpTtqYrmiAyr6yTlO6SEGejAn5W+fxM6YYbLW78GzN2FMFEO0a5ac1iIlrxIWKfsu7vXXH2WWmZHcTI+clRniQsPSqdstPPalvVLT+T/bYspV/L0PGbPilWnC2z9UYK05bu0gU+cfckIFG6wuyEHyzDzZ8TTGPMZ8j7pZggFj3r80ACsKvSr4opPxBhvSDEYtxnRHbiSiPoET7dyZLyBfNnAolFev/sMjBOfoti/shB8AHv+e+vNEZJ1aihRRqzkd5t83g/cAfL2RzUHt4q/+cBGc+y3wkY8XAHvjzmv3nrZC6nxldazE50NVFaYTCDzX4dMfy0Kdax50Sk460NA884ZfhwGgX1qIkOtgPfCyqT1CYe9H3FE5aksbXCETboKdLwriL9mMe4iG6QH1v5MVSiHtQsM8XOby9QHFxlkLmwVw68aZL/uoqDI8dUWkWXwsFSJln8+vr4l8IRDAVHiSoBRstpQKPUXhWNXl9odL9LS7u0nJUM70rJEF0/0ih/8iVKxr5BWhAY8S9ET/QzIFBO5OWo8O6Nowyu0JUJqqQEdLZp5JnSYks968I24O3yTKlmg/GMlNh2SF2MkItBqEBK1yoIaqI1zy2wJmxQeqqt/NjWfKCOGw24JQRVIE7FIF0Rtqbxl912KHRZJj85VgO+vIasKugNX3YrvrabDAZt+FqiOCLHAmG8CcWb/CbZtsP/mQBUkgMqFYDSfbJ+BRw7E1obz1g16D104zTuMJU+akY3r+EXtAxrZG4q1xX3781wnQ0H57ph9uv3mCAVj2UPGVKg69u4W35UG8gBtVTLMYYq1thbqmUNkoHXg/5S+NwSLKAXsDjAIAhThLqDRR+oVL3Xgop/VznUg6JWQBEXV0pMqWJBiyRdJEN3nnJbgYEyv0GGQENK5PYmQ0EDXEyqScKHrP7OzxYEbbfR4ixPyL27snOv9vGX7d2tM9xynggx+ZJPPgtdtEDkxpVj0JW5/GZsKLF3T4T+WjU0ecmUsK4EB41UyjGx2TfBjXtFrFZtAh0Rq2lhBd+r1fA8+Pwrc6zXAV+ZRkveM9PqruCzLWOgjurK0YCOitsmc9iemLC5X3C1N3L8oBjxpsiWe5I7kO4rL1t7S+S2abQohXQTcC68rOlBnlJCU25JaJLx/TIixDAhEq2SjA34E4a5fSK14EE0xFEY5mLRlBboicMN8gDo14ojDcU3p+GBhH0lAk0s+r3I33lbAvvaw9aA0nEXezNSaq+ZDV3mn8iialnmd0++eDz9XrGt3u9r7w1ar8Xtj29nI2LWw9zB62HQuTXOdCk7XeDthD2ntt3Uq57/MxGTOVGNmQaTMPeuqOo//H2M1/Qq53U/kPHfSroyRBX17L5Rqvr5vMbtJa+pl9Tdjl8vnC3ze+ZAL65H8NPqm87Cvfoy1p7/Cw==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-11-08T15:15:15.257Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36 OPR/71.0.3770.310" etag="2ghRfXLUDn1-2zolQ8d5" version="13.9.2" type="github">
+  <diagram id="Cp4MX1WB2PmzW3XeEfTH" name="Page-1">
+    <mxGraphModel dx="1119" dy="710" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NkCzZUJD8P9o_l0lwCfn-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" parent="1" source="NkCzZUJD8P9o_l0lwCfn-1" target="NkCzZUJD8P9o_l0lwCfn-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NkCzZUJD8P9o_l0lwCfn-1" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px&quot;&gt;Начало&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="342.5" y="80" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NkCzZUJD8P9o_l0lwCfn-2" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px&quot;&gt;Присваивание весов выходных образов&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="330" y="140" width="135" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NkCzZUJD8P9o_l0lwCfn-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" parent="1" target="NkCzZUJD8P9o_l0lwCfn-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="397.5" y="200" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NkCzZUJD8P9o_l0lwCfn-6" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px&quot;&gt;Подача на входного образа&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="330" y="230" width="135" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NkCzZUJD8P9o_l0lwCfn-10" value="&lt;font style=&quot;font-size: 14px&quot; face=&quot;Times New Roman&quot;&gt;Вес соответствует заданному&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="317.5" y="410" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NkCzZUJD8P9o_l0lwCfn-13" value="&lt;span style=&quot;font-family: &amp;#34;times new roman&amp;#34; ; font-size: 14px&quot;&gt;Обработка входа, проверка веса&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="330" y="320" width="135" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NkCzZUJD8P9o_l0lwCfn-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" parent="1" target="NkCzZUJD8P9o_l0lwCfn-13" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="398" y="290" as="sourcePoint" />
+            <mxPoint x="407.5" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NkCzZUJD8P9o_l0lwCfn-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="NkCzZUJD8P9o_l0lwCfn-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="380" as="sourcePoint" />
+            <mxPoint x="400" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NkCzZUJD8P9o_l0lwCfn-17" value="&lt;font style=&quot;font-size: 14px&quot; face=&quot;Times New Roman&quot;&gt;Корректировка веса&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="180" y="370" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NkCzZUJD8P9o_l0lwCfn-18" value="" style="endArrow=classic;html=1;strokeWidth=2;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;elbow=vertical;" parent="1" source="NkCzZUJD8P9o_l0lwCfn-10" target="NkCzZUJD8P9o_l0lwCfn-17" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="440" as="sourcePoint" />
+            <mxPoint x="230" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NkCzZUJD8P9o_l0lwCfn-19" value="" style="endArrow=classic;html=1;strokeWidth=2;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="NkCzZUJD8P9o_l0lwCfn-17" target="NkCzZUJD8P9o_l0lwCfn-13" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="360" as="sourcePoint" />
+            <mxPoint x="310" y="310" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="230" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NkCzZUJD8P9o_l0lwCfn-20" value="&lt;font style=&quot;font-size: 14px&quot; face=&quot;Times New Roman&quot;&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;Не&lt;/font&gt;т&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="277.5" y="430" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="NkCzZUJD8P9o_l0lwCfn-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" parent="1" target="NkCzZUJD8P9o_l0lwCfn-23" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="397.5" y="490" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NkCzZUJD8P9o_l0lwCfn-23" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px&quot;&gt;Получение выходного значения&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="330" y="520" width="135" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NkCzZUJD8P9o_l0lwCfn-24" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;Да&lt;/span&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="350" y="490" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="NkCzZUJD8P9o_l0lwCfn-25" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px&quot;&gt;Конец&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="342.5" y="610" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NkCzZUJD8P9o_l0lwCfn-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=2;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="NkCzZUJD8P9o_l0lwCfn-23" target="NkCzZUJD8P9o_l0lwCfn-25" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="407.5" y="500" as="sourcePoint" />
+            <mxPoint x="398" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
